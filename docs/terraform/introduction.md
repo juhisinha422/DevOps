@@ -926,7 +926,7 @@ After installing we have to configure the AWS CLI with the access key and secret
 
 ![AWS CLI](https://github.com/user-attachments/assets/75a4aa54-eb7e-4768-8f52-3b835b4a3496)
 
-All the commands can be found [here](./commands.md#AWS-Commands).
+All the commands can be found [here](./commands.md#aws-commands).
 
 ### AWS S3 (Simple Storage Service)
 
@@ -1180,7 +1180,7 @@ In the `aws_s3_bucket_policy` resource, we are using the `bucket` argument to re
 
 The `data` block to fetch information about an IAM group. We are using the `aws_iam_group` data source to fetch information about an IAM group named `finance-analysts`. We are using the `group_name` argument to specify the name of the group. We can use the `arn` attribute to reference the ARN of the group.
 
-:::Note
+:::note
 The bucket naming should not contain uppercase letters, underscores, or special characters. `ss_aa` is not allowed due to DNS compatibility.
 :::
 

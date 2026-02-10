@@ -16,7 +16,11 @@ const config = {
   organizationName: 'Pradumnasaraf', 
   projectName: 'DevOps',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
